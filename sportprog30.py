@@ -1,9 +1,12 @@
 import requests
 handle = 'Fefer_Ivan'
-listOfHandles = ['Fefer_Ivan', 'tourist', 'slime', 'ainta']
+
+listOfHandles = input()
+listOfHandles = listOfHandles.split(" ")
 for i in listOfHandles:
     handle = i
     x = requests.get(f'https://codeforces.com/api/user.status?handle={handle}&from=1&count=1000000000').json()
+    
     mySet = set()
     for i in x["result"]:
         if(i["verdict"] == "OK" ):

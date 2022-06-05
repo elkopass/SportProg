@@ -119,23 +119,23 @@ def loop():
             if(i[today*24+now]==1 and begFlag==0):
                 
                 #Раскомментить для проверки
-                # with open("stList"+f"{n}"+".csv", mode="w", encoding='utf-8') as file:  
-                #     w = csv.writer(file, delimiter = ",", lineterminator="\r")
-                
-                #     w.writerow(studList[n])
+                # f =  open("log.txt", mode="w", encoding='utf-8')
+                # for i in studList[n]:
+
+                #     f.write(i)
 
 
                 #Закомментить для проверки 
-                # studList[n] = []
+                studList[n] = []
 
                 begFlag = 1
             elif(i[today*24+now]==0 and begFlag==1):
                 begFlag = 0
                 
-                with open("stList"+f"{n}"+".csv", mode="w", encoding='utf-8') as file:
-                    w = csv.writer(file, delimiter = ",", lineterminator="\r")
-                
-                    w.writerow(studList[n])
+                f =  open("log.txt", mode="w", encoding='utf-8')
+                for i in studList[n]:
+                    f.write(i)
+
         time.sleep(1)
 
 
