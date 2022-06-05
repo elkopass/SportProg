@@ -13,7 +13,7 @@ from threading import Thread
 import time
 
 settings = {
-'token': 'OTgyODI0ODY1ODcyNjE3NDgy.G-qumj.H_BQ5BJjCnm0jZ5Fr6uS4wcntYeoYK35rRvg6o',
+'token': 'OTgyODI0ODY1ODcyNjE3NDgy.G-qumj.H_BQ5BJjCnm0jZ5Fr6uS4wcntYeoYK35rRvg6o',#вставьте новый токен из ридми
 'bot': 'BotVezdekod2.0',
 'id': 982824865872617482,
 'prefix': '!'

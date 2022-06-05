@@ -16,6 +16,8 @@
 https://discord.com/api/oauth2/authorize?client_id=982824865872617482&permissions=2048&scope=bot
 
 3) Выберите в списке свой сервер
+3а) Вставить в bot2.py  в структуру settings -> token токен отсюда: https://pastebin.com/077LEQPG
+
 4) Запустите файл bot2.py
 5) Введите в text.csv тестовые данные
 6) Ждите пока, создаться файл stList + номер группы, после конца каждого урока они будут обновляться 
@@ -43,6 +45,7 @@ General,Group2,Group3
 https://discord.com/api/oauth2/authorize?client_id=982665838874214430&permissions=8&scope=bot
 
 3) Выберите в списке свой сервер
+3а) Вставить в confBot.py в token токен отсюда: https://pastebin.com/eqnpwCa2
 4) Запустите файл bodybot.py из папки config
 # 5) Введите команду !listOfGyus 
 6) Введите никнеймы пользователей через пробел
